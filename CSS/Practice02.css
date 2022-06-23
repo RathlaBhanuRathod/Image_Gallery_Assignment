@@ -1,0 +1,105 @@
+.ul{
+    display: flex;
+    justify-content: end;
+    gap: 10px 20px;
+    background-color: aqua;
+    /* width: 100%; */
+    height: 40px;
+    padding-top: 15px;
+    padding-right: 90px;
+    
+
+    
+
+}
+.ul >li{
+    flex-direction: column;
+    list-style-type:none;
+    
+
+   
+  
+    
+}
+.ul>li>a{
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+
+}
+.ul>li>a:hover{
+    background-color: darkblue;
+    color: white;
+ 
+}
+.form1{
+  
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    padding-top:120px ;
+    background-color: rgb(206, 215, 222);
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#submit{
+    background-color: darkcyan;
+    font-weight: 600;
+    border-radius: 0.8rem;
+}
+#submit:hover{
+    background-color: linen;
+}
+#reset{
+    background-color: darkcyan;
+    font-weight: 600;
+    border-radius: 0.8rem;
+}
+#reset:hover{
+    background-color: linen;
+}
+body{
+    background-color: rgb(214, 238, 238);
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+    height: 60px;
+  padding-top:15px;
+}
+header>h2{
+    text-align: center;
+}
+table{
+    width: 100%;
+  padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+img:hover{
+    border: 5px solid rgb(90, 163, 169);
+    box-shadow: inset;
+}
+img{
+    height: 400px;
+    width: 600px;
+ 
+    margin-left: 90px;
+
+}
+
+figcaption{
+    padding-bottom:15px;
+  text-align: center;
+  font-size: 1.4rem;
+
+}
+section>h3{
+    text-align: center;
+}
